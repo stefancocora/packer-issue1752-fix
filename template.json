@@ -1,0 +1,21 @@
+{
+  "builders": [
+    {
+      "type": "docker",
+      "image": "devopsil/puppet",
+      "export_path": "ubuntu-14.04.image.tar"
+    }
+  ],
+  "provisioners": [
+    {
+      "type": "file",
+      "source": "./modules",
+      "destination": "/tmp/modules"
+    },
+    {
+      "type": "puppet-masterless",
+      "manifest_file": "manifests/test.pp",
+      "prevent_sudo": true
+    }
+  ]
+}
