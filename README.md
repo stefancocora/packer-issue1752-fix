@@ -2,7 +2,8 @@ packer-issue1752-fix
 ===
 
 # What is it ?
-  This repo holds in the `packer/` directory the packer binaries, built from the master branch(14/02/2015) , accordingly to the build instructions in the original repo https://github.com/mitchellh/packer  
+  This repo holds in the `packer/` directory the packer binaries, built from the master branch(14/02/2015) , accordingly to the build instructions in the original repo https://github.com/mitchellh/packer.
+  The binaries have been built for the **linux 64bit architecture** aka `amd64` or `x86_64`
 
   The packer binaries also contain the fix created by mariussturm in https://github.com/mitchellh/packer/commit/3a286ab6bdba7b8e5bf6a43c357a0ffeacd3dc97 that fixes the issue present in the github issue https://github.com/mitchellh/packer/issues/1752  
 
