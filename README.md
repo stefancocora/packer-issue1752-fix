@@ -1,6 +1,11 @@
 packer-issue1752-fix
 ===
 
+# Deprecated
+As of packer `Packer v0.8.0` this issue has been solved upstream.
+I'll leave the repo here for a while before I remove it completely.
+
+
 # What is it ?
   This repo holds in the `packer/` directory the packer binaries, built from the master branch(14/02/2015) , accordingly to the build instructions in the original repo https://github.com/mitchellh/packer.
   The binaries have been built for the **linux 64bit architecture** aka `amd64` or `x86_64`
